@@ -87,7 +87,7 @@ El bloque always @ (*) contiene un case que mapea cada valor BCD a un patrón de
 
 Cada combinación de BCD activa/desactiva los segmentos (a a g) del display.
 
-La siguiente parte consiste en agregar la señal de control conectada al anodo comun. esto lo podemos ver en la imagen de abajo, señalado dentro del circulo rojo.
+La siguiente parte consiste en agregar la señal de control conectada al anodo comun, esto lo podemos ver en la imagen de abajo, señalado dentro del circulo rojo.
 
 ![BCDtoSSeg](./imagenes/bloques.png)
 
