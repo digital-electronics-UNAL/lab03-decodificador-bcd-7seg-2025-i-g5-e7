@@ -4,6 +4,8 @@
 
 ## Integrantes 
 
+[Juan Esteban Rodriguez Marin](https://github.com/Esteban-dido)
+[Luis Fernando Montenegro Silva](https://github.com/luisfer13672)
 
 ## Informe
 

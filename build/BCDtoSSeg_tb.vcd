@@ -1,0 +1,50 @@
+$date
+	Tue Jul 01 08:58:58 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module BCDtoSSeg_tb $end
+$var wire 4 ! an [3:0] $end
+$var wire 7 " SSeg [0:6] $end
+$var reg 4 # BCD [3:0] $end
+$scope module uut $end
+$var wire 4 $ BCD [3:0] $end
+$var wire 4 % an [3:0] $end
+$var wire 4 & s [3:0] $end
+$var reg 7 ' SSeg [0:6] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 '
+bz &
+bz %
+b0 $
+b0 #
+b1 "
+bz !
+$end
+#10000
+b100100 "
+b100100 '
+b101 #
+b101 $
+#20000
+b100 "
+b100 '
+b1001 #
+b1001 $
+#30000
+b1000 "
+b1000 '
+b1010 #
+b1010 $
+#40000
