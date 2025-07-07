@@ -41,6 +41,33 @@ Indice:
 
 Ahora bien, también es posible representar de forma binaria los números décimales del 10 al 15 pero empleando su correspondiente representación en el sistema hexadécimal como se muestra en la tabla.
 
+El display de siete segmentos es un dispositivo electrónico que consta de siete diodos emisores de luz (LED) dispuestos en un patrón definido; encender una combinación particular de éstos permite representar un dígito décimal o hexadécimal Existen dos tipos de display LED de siete segmentos:
+
+Tipo de cátodo común: en este tipo de display, todos los cátodos de los siete LEDs están conectados entre sí a tierra o −Vcc
+ (por lo tanto, cátodo común) y el LED muestra dígitos cuando se suministra un nivel alto a los ánodos individuales.
+
+Tipo de ánodo común: en este tipo de display, todos los ánodos de los siete LEDs están conectados a 
++Vcc
+ (por lo tanto, ánodo común) y el LED muestra dígitos cuando se suministra un nivel al bajo a los cátodos individuales.
+
+En las siguientes figuras se muestra cómo se distribuyen los 7 segmentos en el display cuando se tiene una configuración de ánodo común:
+
+
+![BCDtoSSeg](./imagenes/segm.png)
+
+
+
+![BCDtoSSeg](./imagenes/BCDtoSSeg.png)
+
+Este codigo fue proporcionado por la profesora, inicialmente para mostrarnos como funcionaba como era la codificación hacia la FPG1A y luego la decodificación en el display 7 segmentos, sin embargo este codigo mostraba unicamente la decodificación en el primer 7 segmentos disponible en la fpga. 
+
+![BCDtoSSeg](./imagenes/displays1.jpeg)
+
+Como se ve en esta imagen, la FPGA tiene 4 displays 7 segmentos, correspondia a nosotros hacer que estos se activaran segun una señal de control, nosotros agregamos la señal de control s, conectada a los anodos de cada 7 segmentos y asi multiplexar el display solicitado
+
+![BCDtoSSeg](./imagenes/Control.png)
+
+
 ### 2. Descripción
 
 ### 3. Diagramas

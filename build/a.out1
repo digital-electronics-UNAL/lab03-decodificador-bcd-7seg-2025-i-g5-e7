@@ -1,9 +1,4 @@
-**** module/scope: BCDtoSSeg_tb
-     Flip-Flops   : 0
-     Logic Gates  : 0
-     LOG[13]: 1 unaccounted
-     LOG[14]: 1 unaccounted
-**** module/scope: BCDtoSSeg_tb.uut
+**** module/scope: BCDtoSSeg
      Flip-Flops   : 0
      Logic Gates  : 0
      LPM[5]: 1 unaccounted
@@ -13,5 +8,5 @@
      Flip-Flops   : 0
      Logic Gates  : 0
      LPM[5]: 1 unaccounted
-     LOG[13]: 2 unaccounted
-     LOG[14]: 2 unaccounted
+     LOG[13]: 1 unaccounted
+     LOG[14]: 1 unaccounted
