@@ -91,6 +91,10 @@ La siguiente parte consiste en agregar la señal de control conectada al anodo c
 
 ![BCDtoSSeg](./imagenes/bloques.png)
 
+Para la siguiente parte necesitamos otro bloque, un divisor de frecuencia, esto se debe a que usaremos cada display para mostrar un numero diferente, este numero no será estático sino que ira intercalado cada 16ms para que sea indetectable al ojo humano
+
+![BCDtoSSeg](./imagenes/displays_block1.png)
+
 ### 3. Diagramas
 
 
