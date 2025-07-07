@@ -20,6 +20,10 @@ Indice:
 
 ## 1. Diseño implementado
 
+BCD significa Décimal Codificado en Binario y representa el sistema de numeración digital en el que podemos representar cada número décimal utilizando 4 bits de números binarios.
+
+Como sabemos hay 10 dígitos en el sistema décimal, para representarlos necesitamos 10 combinaciones de 4 bits binarios.
+
 | Dígito Decimal | BCD (4 bits) | Hexadecimal |
 |----------------|-------------|-------------|
 |       0        |    0000     |      0      |
@@ -67,6 +71,7 @@ Como se ve en esta imagen, la FPGA tiene 4 displays 7 segmentos, correspondia a 
 
 ![BCDtoSSeg](./imagenes/Control.png)
 
+Ahora bien, con este código hasta el momento, los 4 displays mostrarian el mismo digito si es que los 4 están activados, esto no es muy útil, lo que se busca ahora es que cada display pueda mostrar un numero distintio, 1 display para unidades, otro para decenas y otro para centenas
 
 ### 2. Descripción
 
