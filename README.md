@@ -75,6 +75,22 @@ Ahora bien, con este código hasta el momento, los 4 displays mostrarian el mism
 
 ### 2. Descripción
 
+En esta sección podremos ver la idea de cada paso, en la primera parte ocupamos codificar y decodificar, lo que esta representado así:
+
+![BCDtoSSeg](./imagenes/Sseg.png)
+
+Esto está traducido en el codigo verilog así: 
+
+![BCDtoSSeg](./imagenes/codificar.png)
+
+El bloque always @ (*) contiene un case que mapea cada valor BCD a un patrón de 7 segmentos.
+
+Cada combinación de BCD activa/desactiva los segmentos (a a g) del display.
+
+La siguiente parte consiste en agregar la señal de control conectada al anodo comun. esto lo podemos ver en la imagen de abajo, señalado dentro del circulo rojo.
+
+![BCDtoSSeg](./imagenes/bloques.png)
+
 ### 3. Diagramas
 
 
