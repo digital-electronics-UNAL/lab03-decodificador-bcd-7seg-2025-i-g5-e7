@@ -59,7 +59,7 @@ En las siguientes figuras se muestra cómo se distribuyen los 7 segmentos en el 
 
 ![BCDtoSSeg](./imagenes/BCDtoSSeg.png)
 
-Este codigo fue proporcionado por la profesora, inicialmente para mostrarnos como funcionaba como era la codificación hacia la FPG1A y luego la decodificación en el display 7 segmentos, sin embargo este codigo mostraba unicamente la decodificación en el primer 7 segmentos disponible en la fpga. 
+Este codigo fue proporcionado por la profesora, inicialmente para mostrarnos como funcionaba como era la codificación hacia la FPGA y luego la decodificación en el display 7 segmentos, sin embargo este codigo mostraba unicamente la decodificación en el primer 7 segmentos disponible en la FPGA. 
 
 ![BCDtoSSeg](./imagenes/displays1.jpeg)
 
